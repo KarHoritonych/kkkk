@@ -1,0 +1,76 @@
+.post{
+  color: red;
+  text-align: center;
+}
+
+.post1{
+  background-color: blue;
+}
+
+.post2{
+  background-color: pink;
+}
+
+.post3{
+  background-color: orange;
+}
+
+#hihihi{
+  
+}
+
+body{
+  background-image: url("https://i.pinimg.com/originals/65/99/8d/65998d8238e2aeb7bb1587b0af716f4b.png")
+}
+
+ul{
+  color: white;
+  background: black;
+  text-align: left;
+  
+}
+
+ol{
+  background-color: white;
+  color: black;
+  text-align: left;
+}
+nav ul{
+  width: 100%;
+  position: relative;
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+   margin-left: 20px;
+  text-align: relative;
+}
+
+}
+nav ul li ul{
+  display: none;
+   z-index: 1;
+   background: red;
+  width: 50px;
+   border-radius: 15px;
+}
+nav ul li ul li{
+  display: block; 
+   
+}
+nav li: hover > ul{
+  display: block; 
+  margin-right: 20px;
+}
+.slide{
+  display: flex;
+  align-items: central;
+  margin-top: 50px;
+  transition: transform 2s ease-in-out;
+}
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
+p{
+  font-family: 'Cormorant Garamond' sans-serif;
+  font-weight: 500;
+}
